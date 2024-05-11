@@ -137,7 +137,8 @@ if data is not None:
 
 		new_df = input_data[col]
 
-		k_model = KMeans(n_clusters = 4, init = "k-means++", n_jobs = -1, max_iter = 1000).fit(new_df)
+		# k_model = KMeans(n_clusters = 4, init = "k-means++", n_jobs = -1, max_iter = 1000).fit(new_df)
+		k_model = KMeans(n_clusters = 4, init = "k-means++", max_iter = 1000).fit(new_df)
 
 		labels = k_model.labels_
 
@@ -148,6 +149,7 @@ if data is not None:
 		label_mapper = dict({0 : "Low", 3: "Medium", 1: "High", 2: "V_High"})
 
 		input_data["Labels"] = input_data["Labels"].map(label_mapper)
+		        
 
 		#saving the input data in the separate variable 
 
