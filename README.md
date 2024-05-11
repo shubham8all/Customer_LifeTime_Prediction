@@ -1,1 +1,2 @@
-Cumstomer Life Time Prediction
+# Customer Lifetime Value Prediction & LTV Segmentation
+
