@@ -1,5 +1,7 @@
 # Customer Lifetime Value Prediction & LTV Segmentation
 
+### Model Deployment: https://lifetime.streamlit.app/
+
 ![1](https://github.com/shubham8all/Files/blob/main/CLTV_1.png)
 ![2](https://github.com/shubham8all/Files/blob/main/CLTV_2.png)
 ![3](https://github.com/shubham8all/Files/blob/main/CLTV_3.png)
